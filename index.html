@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="B_Listing.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <title>Business Listing design</title>
+</head>
+
+<body>
+    <div class="List_Container">
+
+        <div class="List_head">
+            <input type="search" placeholder="🔍 Keyword">
+
+            <div class="btn-group w-25">
+                <button class="btn bg-white btn-sm" type="button">
+                    <i class="fas fa-map-marker-alt me-3"></i> Geo Location
+                </button>
+                <button type="button" class="btn btn-sm bg-white border-start dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu text-center">
+                    <span>Distance in Kilometers</span>
+                    <!-- <label for="slider-step">Input slider:</label> -->
+                    <input type="range" name="slider-step" id="slider-step" value="150" min="0" max="500" step="50" />
+                </ul>
+
+            </div>
+
+
+            <div class="dropdown d-inline-block ">
+                <button class="btn1 btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown button
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+
+            <button class="search_btn"><i class="fas fa-search"></i> </button>
+        </div>
+
+        <div class="List_content">
+            <div class="List_box">
+
+                <div class="list">
+                    <div class="list_img">
+                        <img src="https://i.pinimg.com/474x/21/20/f4/2120f486d70441bab8430fa62db49a96.jpg" alt="">
+                    </div>
+                    <div class="text_content">
+                        <div class="text_top">
+                            <div class="text_top_left">
+                                <button>Beauty Parlor</button>
+
+
+                                <button><i class="fas fa-check" style="color: #5DC560;"></i> Verified</button>
+
+                                <h3>Winnie Spa Center</h3>
+                                <div> <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span> <span> <i class="far fa-clipboard"></i> 22 Votes</span> </div>
+                                <p><i class="fas fa-phone"></i> +91 12 1234 1234</p>
+                                <p><i class="far fa-envelope"></i> Demo@Demo.com</p>
+                                <p><i class="far fa-address-card"></i> Padra, Vadodara.</p>
+                                <p><i class="fas fa-door-open"></i> Open Now</p>
+                            </div>
+
+                            <div class="text_top_right">
+                                <div class="img_container">
+                                    <div class="img_i">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDdS2fwFZL5FsF6Bps75O0n4qnXu5_rESES_Y0U7SgsVEFCK0i7_Ac7OWSnq-9BSvdA0U&usqp=CAU" alt="">
+                                    </div>
+                                    <div class="img_i">
+                                        <img src="https://d4qwptktddc5f.cloudfront.net/Interior-Design-Sordo-Madaleno-Arquitectos-idx190601_sma13-06.19.jpg" alt="">
+                                    </div>
+                                    <div class="img_i">
+                                        <img src="https://d4qwptktddc5f.cloudfront.net/Interior-Design-Block722-Architects-Olea-All-Suite-Hotel-cafe-12.18.jpg" alt="">
+                                    </div>
+                                    <div class="img_i">
+                                        <div class="in_">
+
+                                            <img src="https://www.fcgf.ca/root/clientImages/CX7979WEB/empty-big-8.jpg" alt="">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text_bottm">
+
+                            <div class="Wish_btn">
+                                <i class="fas fa-heart "></i>
+                            </div>
+
+                            <div class="float-end p-2 ">
+                                <p><b> <i class="fas fa-users"></i> 340 Followers</b></p>
+                            </div>
+
+                            <div class="social">
+                                <a href="#"> <i class="fab fa-whatsapp ps-3" style="color: #209224;"></i></a>
+                                <a href="#"> <i class="fab fa-facebook ps-3" style="color: rgb(14, 97, 180);"></i></a>
+                                <a href="#"> <i class="fab fa-instagram ps-3" style="color: crimson;"></i></a>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="list">
+                    <div class="list_img">
+                        <img src="https://i.pinimg.com/474x/21/20/f4/2120f486d70441bab8430fa62db49a96.jpg" alt="">
+                    </div>
+                    <div class="text_content">
+                        <div class="text_top">
+                            <div class="text_top_left">
+                                <button>Beauty Parlor</button>
+
+
+                                <button><i class="fas fa-check" style="color: #5DC560;"></i> Verified</button>
+
+                                <h3>Winnie Spa Center</h3>
+                                <div> <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span> <span> <i class="far fa-clipboard"></i> 22 Votes</span> </div>
+                                <p><i class="fas fa-phone"></i> +91 12 1234 1234</p>
+                                <p><i class="far fa-envelope"></i> Demo@Demo.com</p>
+                                <p><i class="far fa-address-card"></i> Padra, Vadodara.</p>
+                                <p><i class="fas fa-door-open"></i> Open Now</p>
+                            </div>
+
+                            <div class="text_top_right">
+                                <div class="img_container">
+                                    <div class="img_i">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDdS2fwFZL5FsF6Bps75O0n4qnXu5_rESES_Y0U7SgsVEFCK0i7_Ac7OWSnq-9BSvdA0U&usqp=CAU" alt="">
+                                    </div>
+                                    <div class="img_i">
+                                        <img src="https://d4qwptktddc5f.cloudfront.net/Interior-Design-Sordo-Madaleno-Arquitectos-idx190601_sma13-06.19.jpg" alt="">
+                                    </div>
+                                    <div class="img_i">
+                                        <img src="https://d4qwptktddc5f.cloudfront.net/Interior-Design-Block722-Architects-Olea-All-Suite-Hotel-cafe-12.18.jpg" alt="">
+                                    </div>
+                                    <div class="img_i">
+                                        <div class="in_">
+
+                                            <img src="https://www.fcgf.ca/root/clientImages/CX7979WEB/empty-big-8.jpg" alt="">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text_bottm">
+
+                            <div class="Wish_btn">
+                                <i class="fas fa-heart "></i>
+                            </div>
+
+                            <div class="float-end p-2 ">
+                                <p><b> <i class="fas fa-users"></i> 340 Followers</b></p>
+                            </div>
+
+                            <div class="social">
+                                <a href="#"> <i class="fab fa-whatsapp ps-3" style="color: #209224;"></i></a>
+                                <a href="#"> <i class="fab fa-facebook ps-3" style="color: rgb(14, 97, 180);"></i></a>
+                                <a href="#"> <i class="fab fa-instagram ps-3" style="color: crimson;"></i></a>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="list">
+                    <div class="list_img">
+                        <img src="https://i.pinimg.com/474x/21/20/f4/2120f486d70441bab8430fa62db49a96.jpg" alt="">
+                    </div>
+                    <div class="text_content">
+                        <div class="text_top">
+                            <div class="text_top_left">
+                                <button>Beauty Parlor</button>
+
+
+                                <button><i class="fas fa-check" style="color: #5DC560;"></i> Verified</button>
+
+                                <h3>Winnie Spa Center</h3>
+                                <div> <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span> <span> <i class="far fa-clipboard"></i> 22 Votes</span> </div>
+                                <p><i class="fas fa-phone"></i> +91 12 1234 1234</p>
+                                <p><i class="far fa-envelope"></i> Demo@Demo.com</p>
+                                <p><i class="far fa-address-card"></i> Padra, Vadodara.</p>
+                                <p><i class="fas fa-door-open"></i> Open Now</p>
+                            </div>
+
+                            <div class="text_top_right">
+                                <div class="img_container">
+                                    <div class="img_i">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDdS2fwFZL5FsF6Bps75O0n4qnXu5_rESES_Y0U7SgsVEFCK0i7_Ac7OWSnq-9BSvdA0U&usqp=CAU" alt="">
+                                    </div>
+                                    <div class="img_i">
+                                        <img src="https://d4qwptktddc5f.cloudfront.net/Interior-Design-Sordo-Madaleno-Arquitectos-idx190601_sma13-06.19.jpg" alt="">
+                                    </div>
+                                    <div class="img_i">
+                                        <img src="https://d4qwptktddc5f.cloudfront.net/Interior-Design-Block722-Architects-Olea-All-Suite-Hotel-cafe-12.18.jpg" alt="">
+                                    </div>
+                                    <div class="img_i">
+                                        <div class="in_">
+
+                                            <img src="https://www.fcgf.ca/root/clientImages/CX7979WEB/empty-big-8.jpg" alt="">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text_bottm">
+
+                            <div class="Wish_btn">
+                                <i class="fas fa-heart "></i>
+                            </div>
+
+                            <div class="float-end p-2 ">
+                                <p><b> <i class="fas fa-users"></i> 340 Followers</b></p>
+                            </div>
+
+                            <div class="social">
+                                <a href="#"> <i class="fab fa-whatsapp ps-3" style="color: #209224;"></i></a>
+                                <a href="#"> <i class="fab fa-facebook ps-3" style="color: rgb(14, 97, 180);"></i></a>
+                                <a href="#"> <i class="fab fa-instagram ps-3" style="color: crimson;"></i></a>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="map">
+
+                <div class="map_container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.1772884586194!2d73.18177111442931!3d22.309133848212948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fcf5295f9aa99%3A0x61636339dce937cd!2sAlankar%20Complex%2C%20Sarod%2C%20Sayajiganj%2C%20Vadodara%2C%20Gujarat%20390001!5e0!3m2!1sen!2sin!4v1623841659721!5m2!1sen!2sin"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+
+</html>

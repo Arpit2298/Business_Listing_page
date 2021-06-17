@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #F2F4F6 !important;
+}
+
+.List_Container {
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    /* background-color: cadetblue; */
+}
+
+.List_head {
+    width: 100%;
+    /* height: 150px; */
+    background-color: #bddfdb;
+    display: inline-block;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 3px;
+}
+
+.List_head input {
+    width: 40%;
+    height: 40px;
+    border: 1px solid rgb(187, 184, 184);
+    outline: none;
+    border-radius: 3px;
+    padding: 0 20px;
+}
+
+.List_head button {
+    height: 40px;
+    border: 1px solid rgb(187, 184, 184);
+    color: gray;
+    outline: none;
+}
+
+.List_head .dropdown {
+    width: 250px;
+}
+
+.List_head .dropdown .btn1 {
+    width: 250px;
+    border: 1px solid rgb(187, 184, 184);
+    background-color: white;
+    color: gray;
+}
+
+.search_btn {
+    width: 45px;
+    background-color: steelblue;
+    margin-left: 15px;
+    border-radius: 3px
+}
+
+.search_btn i {
+    color: white;
+}
+
+.List_content {
+    width: 100%;
+    height: 500px;
+    /* background-color: cyan; */
+}
+
+.List_box {
+    width: 75%;
+    /* height: 500px; */
+    /* background-color: darkkhaki; */
+    float: left;
+}
+
+.map {
+    width: 25%;
+    height: 700px;
+    float: left;
+    /* background-color: darkorange; */
+}
+
+.map_container {
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 gray;
+    /* background-color: violet; */
+}
+
+.list {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #dddddd;
+    margin-top: 15px;
+    /* box-shadow: 0 0 5px 0 gray; */
+}
+
+.list_img {
+    width: 30%;
+    height: 100%;
+}
+
+.list_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.text_content {
+    width: 70%;
+    height: 100%;
+}
+
+.text_content button {
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.text_content button:nth-child(1) {
+    background-color: #5DC560;
+    color: white;
+}
+
+.text_top_left {
+    width: 60%;
+    height: 100%;
+    padding: 10px 20px 20px 20px;
+    /* background-color: yellowgreen; */
+    box-sizing: border-box;
+}
+
+.text_top_left p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 3px 0;
+}
+
+.text_top_left span i {
+    color: orangered
+}
+
+.text_top_left i {
+    color: #001C40;
+}
+
+.text_top_left p {
+    color: grey;
+}
+
+.text_top_left p:hover {
+    color: rgb(0, 111, 139);
+    cursor: pointer;
+}
+
+.text_top_left h3 {
+    color: #001C40;
+}
+
+.text_top_right {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    float: right
+}
+
+.text_top {
+    width: 100%;
+    height: 85%;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.img_container {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_i {
+    width: 90px;
+    height: 80px;
+    padding: 5px;
+}
+
+.in_ {
+    width: 80px;
+    height: 70px;
+    border-radius: 8px;
+    /* background-color: red; */
+}
+
+.img_i:nth-child(4)::before {
+    content: 'View More';
+    position: absolute;
+    width: 80px;
+    height: 70px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.651);
+    color: white;
+    font-size: 17px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.img_i img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.text_bottm {
+    width: 100%;
+    height: 15%;
+    border-top: 1px solid #dddddd;
+    background-color: rgb(226, 218, 208);
+}
+
+.Wish_btn {
+    width: 50px;
+    height: 100%;
+    background-color: rgb(218, 193, 161);
+    padding: 7px 13px;
+    font-size: 22px;
+    float: right;
+}
+
+.Wish_btn i {
+    color: dimgray;
+    transition: .4s;
+}
+
+.text_bottm .Wish_btn:hover i {
+    color: crimson;
+    transform: scale(1.2);
+}
+
+.social {
+    font-size: 25px;
+}
