@@ -63,8 +63,6 @@ body {
 
 .List_content {
     width: 100%;
-    height: 500px;
-    /* background-color: cyan; */
 }
 
 .List_box {
@@ -168,7 +166,6 @@ body {
 }
 
 .text_top_right {
-    width: 40%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -255,4 +252,101 @@ body {
 
 .social {
     font-size: 25px;
+}
+
+
+/* ....................................Responsive.............................................. */
+
+@media only screen and (max-width:1030px) {
+    .List_Container {
+        width: 95%;
+    }
+    .text_top_left {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:770px) {
+    .List_head input {
+        width: 30%;
+    }
+    .List_Container {
+        width: 100%;
+    }
+    .List_content {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .List_box {
+        width: 90%;
+        margin: auto;
+    }
+    .list {
+        height: 290px;
+    }
+    .map {
+        width: 90%;
+        height: 300px;
+        margin: 20px auto;
+    }
+    .text_top_left {
+        width: 80%;
+    }
+    .img_container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:430px) {
+    .list {
+        flex-direction: column;
+        height: 700px;
+    }
+    .list_img {
+        width: 100%;
+        height: 40%;
+    }
+    .text_top {
+        display: flex;
+        flex-direction: column;
+    }
+    .text_content {
+        width: 100%;
+    }
+    .text_top_left {
+        width: 100%;
+    }
+    .text_top_right {
+        width: 100%;
+    }
+    /* ........................nav............................... */
+    .List_head .btn-group .btn span {
+        display: none;
+    }
+    .List_head .dropdown .btn span {
+        display: none;
+    }
+    .List_head .dropdown {
+        width: 150px;
+        padding: 0;
+    }
+    .List_head .dropdown .btn1 {
+        width: 150px;
+        padding: 0;
+    }
+    ol,
+    ul {
+        padding-left: 0rem;
+    }
+    .dropdown-menu {
+        font-size: 12px !important;
+    }
+    .List_head input {
+        width: 16%;
+        padding: 0 10px;
+    }
+    .List_head input[type="range"] {
+        width: 80%;
+    }
 }
