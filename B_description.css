@@ -1,0 +1,582 @@
+* {
+    margin: 0;
+}
+
+
+/* .......................................Nav.............................................. */
+
+.List_head {
+    width: 100%;
+    /* height: 150px; */
+    background-color: #bddfdb;
+    display: inline-block;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 3px;
+}
+
+.List_head input {
+    width: 40%;
+    height: 40px;
+    border: 1px solid rgb(187, 184, 184);
+    outline: none;
+    border-radius: 3px;
+    padding: 0 20px;
+}
+
+.List_head button {
+    height: 40px;
+    border: 1px solid rgb(187, 184, 184);
+    color: gray;
+    outline: none;
+}
+
+.List_head .dropdown {
+    width: 250px;
+}
+
+.List_head .dropdown .btn1 {
+    width: 250px;
+    border: 1px solid rgb(187, 184, 184);
+    background-color: white;
+    color: gray;
+}
+
+.search_btn {
+    width: 45px;
+    background-color: steelblue;
+    margin-left: 15px;
+    border-radius: 3px
+}
+
+.search_btn i {
+    color: white;
+}
+
+.List_head .btn-group span {
+    color: black;
+}
+
+
+/* .......................................Banner section............................................ */
+
+.Banner_section {
+    width: 100%;
+    height: 400px;
+    background-color: cornflowerblue;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/originals/83/75/32/837532504b545bd1180b6b61a30933e9.jpg');
+}
+
+.scale_dark {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.651);
+    display: flex;
+    align-items: center;
+    padding: 150px;
+}
+
+.Business_add {
+    width: 500px;
+    height: 200px;
+    background-color: rgba(100, 148, 237, 0.377);
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.Business_add img {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.Business_add button {
+    border-radius: 8px;
+    border: none;
+    font-weight: 400;
+}
+
+.Business_add button:nth-child(1) {
+    background-color: #5DC560;
+    color: white;
+}
+
+.Business_add span i {
+    color: rgb(255, 187, 0)
+}
+
+.Business_add h3 {
+    color: white;
+}
+
+.Business_add p,
+span {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+
+/* ...................................Description Content............................................... */
+
+.Des_Container {
+    width: 90%;
+    /* height: 200vh; */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    /* background-color: violet; */
+}
+
+.info_container {
+    width: 70%;
+    /* height: 100vh; */
+    float: left;
+    /* background-color: salmon; */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.info_container .nav .nav-link {
+    font-weight: 600 !important;
+    width: 25% !important;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+/* ..................................About us section............................................. */
+
+.info_container .tab-content h3 {
+    padding: 40px 0;
+    font-size: 40px;
+    color: #001C40;
+}
+
+.info_container .tab-content p {
+    padding: 0 0 40px 0;
+    font-size: 20px;
+    color: #434444;
+}
+
+.Timing_spa {
+    width: 60%;
+    height: 400px;
+    /* margin: auto; */
+    /* background-color: burlywood; */
+}
+
+.Timing_spa .date_time span {
+    margin-left: 10px;
+    color: black;
+    font-weight: 300;
+}
+
+.Timing_spa .date_time p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20px;
+    padding: 2px 0;
+}
+
+
+/* ..................................Servises section............................................. */
+
+.accordion {
+    width: 90%;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.accordion .accordion-button b {
+    font-size: 18px;
+    color: #001C40 !important;
+}
+
+.accordion .accordion-body .nav_price {
+    margin-top: 30px;
+}
+
+.accordion .nav_price p {
+    display: inline-block;
+    padding: 0;
+}
+
+.accordion .accordion-item .nav_price span {
+    color: #434444;
+    padding: 0;
+}
+
+
+/* ..................................Gallery section............................................. */
+
+.glr_img {
+    width: 33%;
+    height: 280px;
+    float: left;
+    overflow: hidden;
+    margin: 30px 0;
+}
+
+.img_glr_sec {
+    width: 100%;
+}
+
+.glr_img img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    transition: 2s;
+}
+
+.glr_img:hover img {
+    transform: scale(1.5);
+}
+
+.gallery {
+    overflow: auto;
+}
+
+
+/* ..........................................Review section....................................................... */
+
+.Add_star_review {
+    width: 90%;
+    margin: auto;
+}
+
+.Des_Container .Add_star_review p {
+    font-size: 23px;
+}
+
+.rev_txt_box {
+    width: 100%;
+}
+
+.Des_Container .Add_star_review .rev_txt_box textarea {
+    width: 80%;
+    float: left;
+}
+
+.Des_Container .Add_star_review button {
+    width: 80%;
+    margin-top: 20px;
+    background-color: deepskyblue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+.rev_ex {}
+
+
+/* ........................................................ */
+
+.starrrrr {
+    width: 333px;
+    height: 35px;
+    background: #F4F2F3;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    margin: 2px 20px;
+    /* padding-top: 10px; */
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.568);
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+}
+
+.starrrrr label {
+    cursor: pointer;
+}
+
+svg {
+    width: 3rem;
+    height: 2rem;
+    padding: 0.15rem;
+}
+
+
+/* hide radio buttons */
+
+.starrrrr input[name="star"] {
+    display: inline-block;
+    width: 0;
+    opacity: 0;
+    margin-left: -2px;
+}
+
+
+/* hide source svg */
+
+.star-source {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+
+/* set initial color to transparent so fill is empty*/
+
+.star {
+    color: transparent;
+    transition: color 0.2s ease-in-out;
+}
+
+
+/* set direction to row-reverse so 5th star is at the end and ~ can be used to fill all sibling stars that precede last starred element*/
+
+.star-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.starrrrr label:hover~label .star,
+svg.star:hover,
+input[name="star"]:focus~label .star,
+input[name="star"]:checked~label .star {
+    color: orange;
+}
+
+.starrrrr input[name="star"]:checked+label .star {
+    animation: starred 0.5s;
+}
+
+.starrrrr input[name="star"]:checked+label {
+    animation: scaleup 1s;
+}
+
+@keyframes scaleup {
+    from {
+        transform: scale(1.2);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes starred {
+    from {
+        color: orangered;
+    }
+    to {
+        color: orange;
+    }
+}
+
+
+/* .................................................................... */
+
+
+/* ...........................................Right side bar............................................ */
+
+.sidebar {
+    width: 30%;
+    /* height: 100vh; */
+    float: right;
+    /* background-color: springgreen; */
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 4px gray;
+    transform: translateY(-100px);
+}
+
+.sidebar .map_box .map_text1 p {
+    color: rgb(92, 91, 91);
+}
+
+
+/* ...................................Map & Content.......................................... */
+
+.map_box {
+    width: 100%;
+    /* height: 800px; */
+    /* background-color: sienna; */
+}
+
+.map {
+    width: 100%;
+    height: 350px;
+}
+
+.map_text {
+    width: 100%;
+    height: 55%;
+    /* background-color: brown; */
+}
+
+.map_text1 {
+    width: 100%;
+    height: 70%;
+    padding: 35px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.map_link {
+    width: 90%;
+    height: 30%;
+    margin: auto;
+    /* background-color: burlywood; */
+}
+
+.icon_map {
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon_map i {
+    font-size: 50px;
+}
+
+.sidebar button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: deepskyblue;
+}
+
+
+/* ..................................Contact form............................................ */
+
+.Con_form {
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+}
+
+.Con_form h3 {
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.con_info {
+    width: 90%;
+    margin: auto;
+}
+
+.con_info input,
+textarea {
+    width: 100%;
+    padding: 6px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #bddfdb;
+}
+
+
+/* .........................................Responsive................................................ */
+
+@media only screen and (max-width:1026px) {
+    .Des_Container {
+        width: 98%;
+    }
+    .glr_img {
+        height: 220px;
+    }
+    .info_container .tab-content p {
+        padding: 0;
+    }
+    .starrrrr {
+        margin: 10px 5px;
+    }
+    .Des_Container .Add_star_review .rev_txt_box textarea {
+        width: 100%;
+    }
+    .Des_Container .Add_star_review button {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:770px) {
+    .List_head input {
+        width: 30%;
+    }
+    .Des_Container {
+        flex-direction: column;
+        width: 100%;
+    }
+    .glr_img {
+        height: 220px;
+    }
+    .sidebar {
+        width: 80%;
+        margin: auto;
+        transform: translateY(0px);
+    }
+    .info_container {
+        width: 90%;
+        margin: auto;
+    }
+    .Timing_spa {
+        width: 80%;
+    }
+    .info_container .tab-content p {
+        padding: 0;
+    }
+    .starrrrr {
+        margin: 10px 5px;
+    }
+    .Des_Container .Add_star_review .rev_txt_box textarea {
+        width: 100%;
+    }
+    .Des_Container .Add_star_review button {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:430px) {
+    .List_head {
+        display: none;
+    }
+    .scale_dark {
+        padding: 0;
+    }
+    .Business_add {
+        background-color: transparent;
+    }
+    .info_container {
+        width: 100%;
+    }
+    .info_container .nav .nav-link {
+        font-size: 15px;
+    }
+    .glr_img {
+        width: 47%;
+        height: 200px;
+        margin: 20px 5px;
+    }
+    .info_container .tab-content p {
+        padding: 0;
+    }
+    .starrrrr {
+        margin: 10px 5px;
+    }
+    .Des_Container .Add_star_review .rev_txt_box textarea {
+        width: 100%;
+    }
+    .Des_Container .Add_star_review button {
+        width: 100%;
+    }
+    .sidebar {
+        width: 100%;
+    }
+}
