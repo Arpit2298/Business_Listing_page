@@ -102,6 +102,10 @@ body {
     /* box-shadow: 0 0 5px 0 gray; */
 }
 
+.list a {
+    display: contents;
+}
+
 .list_img {
     width: 30%;
     height: 100%;
